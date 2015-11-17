@@ -57,7 +57,7 @@ var defaults = [
 		showNumbers: false,
 		randomOrder: false, 
 		presentAsScale: true, 
-		timeout: 4350, 
+		timeout: 4400, 
 		hideProgressBar: true },
     "Separator", { transfer: 500, normalMessage: "", errorMessage: "", hideProgressBar: true },
     "Message", { hideProgressBar: true },
