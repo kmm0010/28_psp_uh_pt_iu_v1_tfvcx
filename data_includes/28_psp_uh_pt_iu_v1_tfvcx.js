@@ -1,13 +1,13 @@
 
 var answerHashTable = {};
-answerHashTable["pitiputu"] = ["P - EE", "T - EE", "P - OO", "T - OO"];
-answerHashTable["pititupu"] = ["P - EE", "T - EE", "T - OO", "P - OO"];
-answerHashTable["tipitupu"] = ["T - EE", "P - EE", "T - OO", "P - OO"];
-answerHashTable["tipiputu"] = ["T - EE", "P - EE", "P - OO", "T - OO"];
-answerHashTable["putupiti"] = ["P - OO", "T - OO", "P - EE", "T - EE"];
-answerHashTable["pututipi"] = ["P - OO", "T - OO", "T - EE", "P - EE"];
-answerHashTable["tuputipi"] = ["T - OO", "P - OO", "T - EE", "P - EE"];
-answerHashTable["tupupiti"] = ["T - OO", "P - OO", "P - EE", "T - EE"];
+answerHashTable["pitiputu"] = ["P &ndash; EE", "T &ndash; EE", "P &ndash; OO", "T &ndash; OO"];
+answerHashTable["pititupu"] = ["P &ndash; EE", "T &ndash; EE", "T &ndash; OO", "P &ndash; OO"];
+answerHashTable["tipitupu"] = ["T &ndash; EE", "P &ndash; EE", "T &ndash; OO", "P &ndash; OO"];
+answerHashTable["tipiputu"] = ["T &ndash; EE", "P &ndash; EE", "P &ndash; OO", "T &ndash; OO"];
+answerHashTable["putupiti"] = ["P &ndash; OO", "T &ndash; OO", "P &ndash; EE", "T &ndash; EE"];
+answerHashTable["pututipi"] = ["P &ndash; OO", "T &ndash; OO", "T &ndash; EE", "P &ndash; EE"];
+answerHashTable["tuputipi"] = ["T &ndash; OO", "P &ndash; OO", "T &ndash; EE", "P &ndash; EE"];
+answerHashTable["tupupiti"] = ["T &ndash; OO", "P &ndash; OO", "P &ndash; EE", "T &ndash; EE"];
 
 
 function getRandomSubarray(arrx, sizex) {
