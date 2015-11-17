@@ -95,23 +95,9 @@ var shuffleSequence = seq(
 	"herewego",
 
 	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
 	"pause",
 	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
 	"pause",
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-
-	"midbreak",
-
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	"pause",
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
-	"pause",
-	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
 	sepWith("ITI", precedeEachWith(seq("cross", "aftercross"), randomize( startsWith('t_') )) ),
 
 	"debrief",
@@ -125,8 +111,8 @@ var items = [
 
 
 
-["conditionbutton", "Separator", {transfer: "keypress", normalMessage: stimgroup, hideProgressBar: true, ignoreFailure: true}],
-["answerlist", "Separator", {transfer: "keypress", normalMessage: answerHashTable[stimgroup].join(' : '), hideProgressBar: true, ignoreFailure: true}],
+//["conditionbutton", "Separator", {transfer: "keypress", normalMessage: stimgroup, hideProgressBar: true, ignoreFailure: true}],
+//["answerlist", "Separator", {transfer: "keypress", normalMessage: answerHashTable[stimgroup].join(' : '), hideProgressBar: true, ignoreFailure: true}],
 
 
 // Messages to subject
