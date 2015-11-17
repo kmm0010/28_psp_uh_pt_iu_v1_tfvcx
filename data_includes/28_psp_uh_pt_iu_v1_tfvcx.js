@@ -68,15 +68,15 @@ var defaults = [
 
 
 var shuffleSequence = seq(
-	//"intro", 
+	"intro", 
 	//"conditionbutton",
 	//"answerlist",
-	//"questionnaire",
-	//"headphones", 
-	//"soundcheck", 
-	//"instructions", 
-	//"instructionsSpeed", 
-	//"practiceIntro", 
+	"questionnaire",
+	"headphones", 
+	"soundcheck", 
+	"instructions", 
+	"instructionsSpeed", 
+	"practiceIntro", 
 	"practiceInstruct",
 	
 	"ready",
